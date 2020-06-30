@@ -1,0 +1,21 @@
+{
+  "name": "yarn-install",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss src/scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"yarn run build-css\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "browserify": "^16.5.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "popper": "^1.0.1"
+  }
+}
